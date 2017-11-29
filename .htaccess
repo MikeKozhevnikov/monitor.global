@@ -1,0 +1,10 @@
+#   Страница: "400 Bad Request", 
+ErrorDocument  400  http://monitor.webcodes.club/errorpage.php?page=400
+#   Страница: "401 Authorization Required", 
+ErrorDocument  401  http://monitor.webcodes.club/errorpage.php?page=401 
+#   Страница: "403 Forbidden", 
+ErrorDocument  403  http://monitor.webcodes.club/errorpage.php?page=403 
+#   Страница: "404 Not Found", 
+ErrorDocument  404  http://monitor.webcodes.club/errorpage.php?page=404 
+#   Страница: "500 Internal Server Error", 
+ErrorDocument  500  http://monitor.webcodes.club/index.php
