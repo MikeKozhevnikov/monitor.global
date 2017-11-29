@@ -1,0 +1,44 @@
+<?php
+
+/*
+
+=============================================
+ Monitor Global
+---------------------------------------------
+ 2007-2009, Mike Kozhevnikov
+=============================================
+ File: /language/config.inc.php
+=============================================
+ Назначение: Конфигурационный файл системы
+=============================================
+
+*/
+
+$config = array(
+	  
+"hostname" 				=> "localhost", 					// имя хоста или ip сервера бд	  
+"dbUname" 				=> "", 								// имя пользователя базы данных
+"dbName" 				=> "", 								// имя базы данных	  
+"dbPasswort" 			=> "", 								// пароль для подключения к базе данных	  
+"category_table" 		=> "category", 						// имя таблицы с информациях о категориях	  
+"portals_table" 		=> "portals", 						// имя таблицы с информацией о порталах	  
+"servers_table" 		=> "servers", 						// имя таблицы с информацией о серверах	  
+"statslog_table" 		=> "statslog", 						// имя таблицы с логом данных с серверов	  
+"reviews_table" 		=> "review", 						// имя таблицы с информацией о статьях	  
+"serverhost" 			=> "http://", 						// полное имя хоста	  
+"verison" 				=> "v0.5", 							// текущая версия системы 	  
+"maxbuildtime" 			=> 0.9, 							// максимальное время выполнения скрипта, в сек.	  
+"accesslogtxt" 			=> false, 							// on\off лог в файл доступа к файлам	  
+"errorslogtxt" 			=> false, 							// on\off лог в файл ошибок скрипта	  
+"longbuildtxtlog" 		=> false, 							// on\off лог в файл долгой отрисовки графиков	  
+"accesslogjabber" 		=> false, 							// on\off лог на jabber доступа к файлам	  
+"errorslogjabber" 		=> false, 							// on\off лог на jabber ошибок скрипта	  
+"longbuildjabberlog" 	=> false, 							// on\off лог на jabber долгой отрисовки графиков	  
+"jabberserver" 			=> 'jabber.org', 					// сервер jabber	  
+"jabberusername" 		=> 'monitor', 						// имя пользователя jabber
+"jabberpassword" 		=> 'password', 						// пароль пользователя jabber
+"jabberuserto" 			=> 'monitor@jabber.org', 			// пользователь, которому будут отсылаться сообщения
+
+  );
+
+?>
